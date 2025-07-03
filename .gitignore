@@ -1,0 +1,66 @@
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Angular specific
+/.angular/cache
+/.angular/cli-lib
+/.sass-cache
+
+# Dependencies
+/node_modules
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# IDE - Other
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Debug logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Test coverage
+/coverage
+/.nyc_output
+
+# Environment files
+.env
+.env.local
+.env.*
+!.env.example
+
+# Build artifacts
+*.js.map
+*.css.map
+
+# Husky
+.husky/_
+.nx/cache
+.nx/workspace-data
